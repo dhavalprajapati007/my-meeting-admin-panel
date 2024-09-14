@@ -1,0 +1,7 @@
+.breadcrumb-card {
+  padding: 18px 22px;
+  margin-top: 15px;
+}
+.active {
+  color: var(--thm-color) !important;
+}

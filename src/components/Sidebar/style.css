@@ -1,0 +1,134 @@
+.search_input {
+  background-color: rgb(197, 197, 197) !important;
+}
+
+.link-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: var(--small-text);
+}
+.dropdown-links {
+  margin: 0 auto;
+}
+.link-item::before {
+  content: "";
+  font-family: FontAwesome;
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid var(--small-text);
+}
+
+.link_items_main {
+  display: flex;
+}
+
+.link-item .MuiListItemText-root {
+  color: var(--small-text);
+}
+
+.link-item .MuiTypography-root {
+  margin-left: 10px !important;
+  color: var(--small-text);
+}
+
+.icon-app-bar {
+  columns: var(--small-text) !important;
+}
+
+.sidebar-main .MuiBadge-badge {
+  background-color: var(--thm-color) !important;
+}
+.sidebar-main {
+  z-index: 1050px !important;
+}
+.appbar-right-side-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile_menu {
+  margin-left: 10px;
+}
+.search {
+  /* background-color: var(--light-bg); */
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  min-width: 300px;
+}
+input::placeholder {
+  color: var(--small-text) !important;
+}
+
+.MuiInputBase-input-MuiInput-input::before {
+  border-bottom: none;
+}
+.appbar-btn {
+  border-radius: 5px !important;
+  margin-right: 20px;
+  background: var(--light-bg) !important;
+}
+/* .drawerMain .MuiDrawer-paper
+{
+  padding: 20px !important;
+} */
+
+.appbarmain .MuiSvgIcon-root {
+  color: var(--thm-color) !important;
+}
+
+.dropdown-main .btn-success {
+  background-color: transparent !important;
+  border: none !important;
+  display: grid !important;
+}
+
+.dropdown-main .btn-check:focus + .btn-success,
+.btn-success:focus {
+  color: #fff;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.collapsed-open {
+  width: calc(100% - 240px) !important;
+}
+
+.collapsed-close {
+  width: calc(100% - 67px) !important;
+}
+
+@media (max-width: 991.5px) {
+  .link-item {
+    margin-left: 60px !important;
+  }
+  .collapsed-close {
+    width: 100% !important;
+  }
+  .collapsed-open {
+    width: 100% !important;
+  }
+  
+}
+
+@media (min-device-width: 320px) and (max-device-width: 720px) {
+  .link-item {
+    margin-left: 60px !important;
+  }
+}
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .link-item {
+    margin-left: 60px !important;
+  }
+}
+@media (min-device-width: 900px) and (max-device-width: 1024px) {
+  .link-item {
+    margin-left: 0px !important;
+  }
+}

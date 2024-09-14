@@ -1,0 +1,30 @@
+.card-small-text
+{
+    margin-top: 10px !important;
+}
+.dashboard-card-icon
+{
+    background-color: var(--thm-color);
+    display: inline-block;
+    padding:30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-card-icon .icon-dashboard 
+{
+    color: var(--white) !important;
+    font-size: 50px;
+}
+.dashboard-card-main
+{
+    display: flex;
+    align-items: center;
+}
+.dashboard-card-content
+{
+    margin-left: 20px;
+}

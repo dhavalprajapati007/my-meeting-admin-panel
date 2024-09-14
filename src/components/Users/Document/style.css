@@ -1,0 +1,35 @@
+.document-main {
+  border: 1px solid var(--thm-color);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.document-main img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.update-btn button {
+  margin-left: 20px;
+}
+
+.download_btn {
+  min-width: 45px !important;
+}
+.delete-icon {
+  text-align: center;
+}
+.delete-icon img {
+  width: 250px;
+  object-fit: cover;
+}
+
+@media (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .document-main img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+}

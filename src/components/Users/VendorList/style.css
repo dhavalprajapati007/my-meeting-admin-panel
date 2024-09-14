@@ -1,0 +1,13 @@
+.tab-color {
+  background: #5f5ba8 !important;
+  color: var(--white) !important;
+}
+@media (max-device-width: 991.5px) {
+  .vendor-details-tab {
+    display: flex !important;
+    overflow-x: scroll !important;
+  }
+  .vendor-details-tab .MuiButton-root {
+    min-width: 210px !important;
+  }
+}

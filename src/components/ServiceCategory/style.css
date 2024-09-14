@@ -1,0 +1,43 @@
+.modal-content {
+  margin-top: 80px;
+}
+.error-message {
+  font-size: 12px;
+  color: #5f5ba8;
+}
+.dropzone-style {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: var(--thm-color);
+  padding: 3rem 1rem;
+  font-size: 1.1875rem;
+  order: -1;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.check-icon-main {
+  display: flex;
+}
+
+.check-icon-main .icon {
+  font-size: 25px;
+  color: var(--thm-color) !important;
+}
+.check-icon-main p {
+  margin-left: 10px;
+}
+
+.upload-icon {
+  font-size: 80px !important;
+  color: var(--thm-color) !important;
+}
+
+.service-category-table .MuiTable-root .MuiTableBody-root :nth-child(5) {
+  width: 30%;
+}
+@media (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .service-category-table .MuiTable-root .MuiTableBody-root :nth-child(5) {
+    width: 25%;
+  }
+}

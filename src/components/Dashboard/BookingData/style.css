@@ -1,0 +1,114 @@
+.booking-data-card-top-icon
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.booking-data-icon
+{
+    padding: 10px;
+}
+.booking-total-number
+{
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+.booking-total-content
+{
+    display: grid;
+}
+.booking-total-content p 
+{
+    margin-bottom: 0px !important;
+}
+.chart-content-details
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.chart-content-details .book
+{
+    margin-right: 30px;
+    min-width: 100px;
+}
+.cancel
+{
+    background-color: #F76F72;
+}
+.upcoming
+{
+    background-color: #FFC70E;
+}
+.completed
+{
+    background-color: #55B67E;
+}
+.inprocess
+{
+    background-color: #00A6BF;
+}
+.unattended
+{
+    background-color: #E88422;
+}
+.small-text-booking
+{
+    color: var(--black) !important;
+}
+.card-top-content-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.all-booking-card-content
+{
+    padding:10px;
+}
+
+.booking-number
+{
+    min-width: 40px;
+    text-align: center;
+}
+.active-graph {
+    color: var(--thm-color) !important;
+}
+.apexcharts-canvas
+{
+    width: 100%;
+    text-align: center !important;
+    margin: 0 auto;
+}
+.no-data-image
+{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.card-content
+{
+    margin-top: 10px;
+}
+.no-data-found-image img
+{
+width: 40%;
+}
+.no-data-found-image
+{
+    text-align: center;
+}
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+
+    .apex-chart-main
+    {
+        margin-top: 20px;
+    }
+ 
+  }

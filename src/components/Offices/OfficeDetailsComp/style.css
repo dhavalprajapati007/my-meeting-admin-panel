@@ -1,0 +1,66 @@
+span.working-days-span.outline.small-text {
+  background-color: transparent !important;
+  border: 1px solid #5f5ba8;
+  color: #5f5ba8 !important;
+}
+.working-days-span {
+  display: inline-block;
+  background-color: var(--thm-color);
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.working-days-span.small-text {
+  color: var(--white) !important;
+}
+
+.status-div {
+  background-color: var(--thm-color) !important;
+  display: inline-block;
+  padding: 15px 20px;
+  color: var(--white);
+  border-radius: 5px;
+}
+.status-div .small-text {
+  color: var(--white) !important;
+}
+.wdt {
+  text-align: center;
+}
+.user-image img {
+  text-align: center !important;
+  display: inline;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--thm-color) !important;
+}
+
+/* .half-col-width {
+  max-width: 48.5% !important;
+}
+.full-width-col {
+  max-width: 97% !important;
+} */
+
+.modal-btn {
+  background-color: transparent !important;
+  margin-left: 10px;
+}
+.modal-input {
+  margin-top: 10px !important;
+}
+
+.map-main-grid .card-main
+{
+  position:  relative !important;
+}
+.office-map
+{
+  position: relative;
+  display: block;
+  height:560px;
+}

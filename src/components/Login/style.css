@@ -1,0 +1,64 @@
+.my-meeting-logo {
+  text-align: center;
+}
+.my-meeting-logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.form-inputs-main {
+  margin-top: 10px;
+}
+
+.form-input {
+  margin-top: 20px;
+}
+.forgot-password-text .small-text-light {
+  text-align: end;
+  color: var(--thm-color) !important;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 30px !important;
+  padding: 10px !important;
+  line-height: 2.2 !important ;
+}
+.main-login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.login-right {
+  /* background-color: var(--light-bg) !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-col {
+  background-color: var(--white);
+}
+
+.main-login .MuiOutlinedInput-root {
+  border: 2px solid var(--border-color) !important;
+}
+.main-login .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.error-message {
+  font-size: 12px;
+  color: #5f5ba8;
+}
+.forgot-password-text
+{
+  text-align: end !important;
+}
+.forgot-password-text  .small-text-light
+{
+  display: inline-block;
+}
+@media (max-device-width: 991.5px) {
+  .main-login {
+    height: unset !important;
+  }
+}

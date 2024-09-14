@@ -1,0 +1,156 @@
+.MUIDataTableToolbar-filterPaper-24 {
+  max-width: 50%;
+  position: absolute;
+  left: 0;
+  left: 75% !important;
+  top: 30% !important;
+}
+.data-table-main {
+  margin-top: 10px;
+}
+.data-table-main .MuiPaper-elevation4 {
+  box-shadow: none;
+}
+.data-table-main .MuiToolbar-root {
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--thm-color);
+  border-radius: 5px 5px 0px 0px;
+}
+.data-table-main .MuiTypography-h6 {
+  color: var(--white) !important;
+}
+.data-table-main .MuiToolbar-root .MuiSvgIcon-root {
+  color: var(--white);
+}
+
+.data-table-main .MuiTableCell-body {
+  font-size: calc(
+    13px + (16 - 14) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--small-text) !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.data-table-main .MuiTableCell-body p {
+  font-size: calc(
+    13px + (16 - 14) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--small-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px;
+}
+.data-table-main .MuiButton-label {
+  font-size: calc(
+    14px + (18 - 16) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--black) !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+.data-table-main .MUIDataTableHeadCell {
+  font-size: calc(
+    16px + (16 - 14) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--black) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+}
+.data-table-main .MuiTableCell-root {
+  padding: 5px !important;
+}
+.data-table-main .MuiTableCell-root {
+  border-bottom: none !important;
+}
+.data-table-main .MUIDataTableSelectCell-headerCell-41 {
+  background-color: var(--light-bg) !important;
+}
+.data-table-main .MUIDataTableHeadCell-data-54 {
+  font-size: calc(
+    14px + (18 - 16) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-weight: 700 !important;
+}
+.data-table-main .MuiTablePagination-caption {
+  font-size: calc(
+    13px + (16 - 14) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--small-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+}
+.data-table-main .MUIDataTableBodyCell-root p {
+  font-size: calc(
+    13px + (16 - 14) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--small-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  padding-bottom: 0px !important;
+}
+
+.data-table-main .MuiTablePagination-toolbar {
+  background: none !important;
+  border-bottom: none !important;
+}
+.data-table-main
+  .MuiTablePagination-toolbar
+  .data-table-main
+  .MuiTableHead-root,
+.data-table-main .MuiTableRow-root {
+  border-bottom: 1px solid var(--border-color) !important;
+}
+.data-table-main .MuiTablePagination-toolbar .MuiIconButton-label {
+  background-color: var(--thm-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+.data-table-main
+  .MuiSvgIcon-root
+  .MuiSelect-icon
+  .MuiTablePagination-selectIcon {
+  color: red !important;
+}
+
+.data-table-main .MUIDataTableToolbarSelect-root-89 {
+  position: none !important;
+
+  box-shadow: none !important;
+  background-color: var(--thm-color) !important;
+}
+.data-table-main .MuiPaper-rounded {
+  right: 0;
+  border-radius: 5px 5px 0px 0px !important;
+}
+.data-table-main .MuiPaper-rounded .MuiTypography-subtitle1,
+.data-table-main .MUIDataTableToolbarSelect-deleteIcon-92 {
+  color: var(--white);
+}
+.MuiSelect-select.MuiSelect-select {
+  background-color: var(--thm-color) !important;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--white);
+}
+.MuiMenu-paper {
+  width: 10%;
+}
+
+.data-table-main .MUIDataTableBodyCell p {
+  font-size: calc(
+    13px + (16 - 14) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: var(--small-text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  padding-bottom: 0px !important;
+}

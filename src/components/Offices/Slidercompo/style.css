@@ -1,0 +1,33 @@
+.slider-image-main {
+  width: 33.33% !important;
+  margin: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.wdt {
+  display: flex !important;
+}
+.aminities-img img {
+  margin-top: 50px;
+}
+
+.slick-prev {
+  position: absolute !important;
+  left: 95% !important;
+  top: 100% !important;
+}
+.slick-next {
+  position: absolute !important;
+  right: 0% !important;
+  top: 100% !important;
+}
+
+.slick-next:before {
+  color: var(--thm-color);
+  font-size: 25px;
+}
+.slick-prev:before {
+  color: var(--thm-color);
+  font-size: 25px;
+}

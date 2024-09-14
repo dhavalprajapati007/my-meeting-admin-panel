@@ -1,0 +1,16 @@
+.img-cabin {
+  border-radius: 5px !important;
+}
+.content-header {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.slick-next:before {
+  color: var(--thm-color);
+}
+.slick-prev:before {
+  color: var(--thm-color);
+}
+.add-btn {
+  padding: 8px 20px !important;
+}

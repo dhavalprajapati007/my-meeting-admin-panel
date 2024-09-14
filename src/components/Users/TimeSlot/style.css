@@ -1,0 +1,104 @@
+.time-slots-main {
+  display: inline-flex !important;
+  margin-right: 20px;
+}
+
+.edit-tab-div .MuiTabs-scroller {
+  overflow-x: scroll !important;
+}
+
+.tab-panel-main {
+  padding: 0px;
+}
+.tab-panel-main .MuiGrid-item {
+  padding: 0px !important;
+}
+.tab-panel-main .MuiBox-root {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.tab-btn {
+  margin-right: 20px !important;
+  padding: 10px 20px !important;
+  border: 1px solid var(--thm-color) !important;
+  border-radius: 5px !important;
+}
+.tab-panel-main .MuiTab-root.Mui-selected {
+  background-color: var(--thm-color);
+}
+.tab-panel-main .MuiTab-root.Mui-selected.small-text-color {
+  color: var(--white) !important;
+}
+.tab-panel-main .MuiTabs-indicator {
+  display: none !important;
+}
+
+.time-slote-main-div .time-slotes {
+  padding: 20px !important;
+  margin-top: 20px !important;
+}
+.tab-div {
+  border-bottom: 0px !important;
+  margin: 0px !important;
+}
+.tab-panel-main {
+  margin: 0px !important;
+}
+.time-span {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--thm-color);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.time-not-available-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-not-available-main img {
+  width: 250px;
+  object-fit: cover;
+}
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+  .content-icon-and-details {
+    display: grid;
+  }
+  .icon-and-details-main {
+    display: grid !important;
+  }
+  .vendor-detail-value,
+  .user-main .vendor-detail-value {
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media (min-device-width: 600px) and (max-device-width: 1024px) {
+  .content-icon-and-details {
+    display: flex !important;
+  }
+  .icon-and-details-main {
+    display: flex !important;
+  }
+  .MuiTabs-scroller {
+    overflow-x: scroll !important;
+  }
+}
+
+@media (max-device-width: 991.5px) {
+  .MuiTabs-scroller {
+    overflow-x: scroll !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .MuiTabs-scroller {
+    overflow-x: scroll !important;
+  }
+}
+@media only screen and (min-width: 1066px) {
+  .MuiTabs-scroller {
+    overflow:hidden !important;
+  }
+}
